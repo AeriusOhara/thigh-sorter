@@ -2,7 +2,7 @@ import os
 import json
 
 downloadsFolder = "E:/Downloads/"
-sortingFolder = "E:/Downloads/SORTED2/"
+sortingFolder = "E:/Downloads/SORTED/"
 
 def setup():
     folderExists(downloadsFolder)
@@ -24,14 +24,11 @@ def sort():
                     # Move the file
                     os.replace(f'{downloadsFolder}{fileName}', f'{sortingFolder}{files["arg"]}{fileName}')
 
-                    # debugtext
-                    #print(f'Moving \"{downloadsFolder}{fileName}\" \n→ Moved to \"{sortingFolder}{files["arg"]}{fileName}\"' )
-
 def folderExists(path):
     # Check if the folder exists
     if not (os.path.exists(path)):
         # If it doesn't, create it
-        os.mkdirs(path)
+        os.makedirs(path)
 
 setup()
 sort()
