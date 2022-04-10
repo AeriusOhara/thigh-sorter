@@ -2,169 +2,206 @@
   "images": [
     {
       "ext": "png",
-      "act": "mov",
-      "arg": "images/"
+      "act": [
+        ["mov", "images/"]
+      ]
     },
     {
       "ext": "jpg",
-      "act": "mov",
-      "arg": "images/"
+      "act": [
+        ["mov", "images/"]
+      ]
     },
     {
       "ext": "jpeg",
-      "act": "mov",
-      "arg": "images/"
+      "act": [
+        ["mov", "images/"]
+      ]
     },
     {
       "ext": "webp",
-      "act": "mov",
-      "arg": "images/"
+      "act": [
+        ["mov", "images/"]
+      ]
     },
     {
       "ext": "bmp",
-      "act": "mov",
-      "arg": "images/"
+      "act": [
+        ["mov", "images/"]
+      ]
     },
     {
       "ext": "gif",
-      "act": "mov",
-      "arg": "images/animated/"
+      "act": [
+        ["mov", "images/animated/"]
+      ]
+    },
+    {
+      "ext": "jfif",
+      "act": [
+        ["ren_ext", "jpg"],
+        ["mov", "images/"]
+      ]
     }
   ],
   "videos": [
     {
       "ext": "mp4",
-      "act": "mov",
-      "arg": "videos/"
+      "act": [
+        ["mov", "videos/"]
+      ]
     },
     {
       "ext": "m4v",
-      "act": "mov",
-      "arg": "videos/"
+      "act": [
+        ["mov", "videos/"]
+      ]
     },
     {
       "ext": "mov",
-      "act": "mov",
-      "arg": "videos/"
+      "act": [
+        ["mov", "videos/"]
+      ]
     },
     {
       "ext": "webm",
-      "act": "mov",
-      "arg": "videos/WEBMs/"
+      "act": [
+        ["mov", "videos/WEBMs/"]
+      ]
     }
   ],
   "music/audio": [
     {
       "ext": "mp3",
-      "act": "mov",
-      "arg": "audio/"
+      "act": [
+        ["mov", "audio/"]
+      ]
     },
     {
       "ext": "m4a",
-      "act": "mov",
-      "arg": "audio/"
+      "act": [
+        ["mov", "audio/"]
+      ]
     }
   ],
   "archives": [
     {
       "ext": "zip",
-      "act": "mov",
-      "arg": "archives/"
+      "act": [
+        ["mov", "archives/"]
+      ]
     },
     {
       "ext": "rar",
-      "act": "mov",
-      "arg": "archives/"
+      "act": [
+        ["mov", "archives/"]
+      ]
     },
     {
       "ext": "7z",
-      "act": "mov",
-      "arg": "archives/"
+      "act": [
+        ["mov", "archives/"]
+      ]
     },
     {
       "ext": "tar.gz",
-      "act": "mov",
-      "arg": "archives/"
+      "act": [
+        ["mov", "archives/"]
+      ]
     },
     {
       "ext": "gz",
-      "act": "mov",
-      "arg": "archives/"
+      "act": [
+        ["mov", "archives/"]
+      ]
     }
   ],
   "text/documents/pdfs": [
     {
       "ext": "pdf",
-      "act": "mov",
-      "arg": "docs/"
+      "act": [
+        ["mov", "docs/"]
+      ]
     },
     {
       "ext": "epub",
-      "act": "mov",
-      "arg": "docs/"
+      "act": [
+        ["mov", "docs/"]
+      ]
     },
     {
       "ext": "txt",
-      "act": "mov",
-      "arg": "docs/"
+      "act": [
+        ["mov", "docs/"]
+      ]
     },
     {
       "ext": "rtf",
-      "act": "mov",
-      "arg": "docs/"
+      "act": [
+        ["mov", "docs/"]
+      ]
     },
     {
       "ext": "doc",
-      "act": "mov",
-      "arg": "docs/"
+      "act": [
+        ["mov", "docs/"]
+      ]
     }
   ],
   "apps/setups": [
     {
       "ext": "exe",
-      "act": "mov",
-      "arg": "applications/"
+      "act": [
+        ["mov", "applications/"]
+      ]
     },
     {
       "ext": "msi",
-      "act": "mov",
-      "arg": "applications/"
+      "act": [
+        ["mov", "applications/"]
+      ]
     }
   ],
   "torrents": [
     {
       "ext": "torrent",
-      "act": "mov",
-      "arg": "torrents/"
+      "act": [
+        ["mov", "torrents/"]
+      ]
     }
   ],
   "psd/sais/clips": [
     {
       "ext": "sai",
-      "act": "mov",
-      "arg": "art_src/sai1/"
+      "act": [
+        ["mov", "art_src/sai1/"]
+      ]
     },
     {
       "ext": "sai2",
-      "act": "mov",
-      "arg": "art_src/sai2/"
+      "act": [
+        ["mov", "art_src/sai2/"]
+      ]
     },
     {
       "ext": "psd",
-      "act": "mov",
-      "arg": "art_src/psds/"
+      "act": [
+        ["mov", "art_src/sai3/"]
+      ]
     },
     {
       "ext": "clip",
-      "act": "mov",
-      "arg": "art_src/clip/"
+      "act": [
+        ["mov", "art_src/clip/"]
+      ]
     }
   ],
   "jars": [
     {
       "ext": "jar",
-      "act": "mov",
-      "arg": "jars/"
+      "act": [
+        ["mov", "jars/"]
+      ]
     }
   ]
 }
